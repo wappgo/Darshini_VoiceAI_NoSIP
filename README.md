@@ -32,78 +32,61 @@ The agent uses an advanced "Tool Use" pattern where the Large Language Model (LL
 Follow these steps to get the backend server and agent worker running.
 
 #### 1. Clone the Repository
+# Project Setup
 
 ```bash
+# 1. Clone the Repository
 git clone <your-repository-url>
 cd <your-repository-directory>
-2. Create and Activate a Python Virtual Environment
-It is highly recommended to use a virtual environment to manage project dependencies.
-Windows:
-code
-Bash
+
+# 2. Create and Activate a Python Virtual Environment
+# Windows:
 python -m venv venv
 .\venv\Scripts\activate
-macOS / Linux:
-code
-Bash
+# macOS / Linux:
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
-Create a requirements.txt file with the following content:
-requirements.txt
-code
-Code
-livekit-agents
+
+# 3. Install Dependencies
+# Create a requirements.txt file with the following content:
+echo "livekit-agents
 psycopg2-binary
 python-dotenv
 fastapi
 uvicorn[standard]
 groq
 elevenlabs
-deepgram-sdk[async]
-Then, install the packages using pip:
-code
-Bash
+deepgram-sdk[async]" > requirements.txt
+
+# Install packages
 pip install -r requirements.txt
-4. Configure Environment Variables
-Create a file named .env in the root of your project directory. This file will store all your secret keys and configuration details.
-Copy the following template into your .env file and fill in your actual credentials.
-.env
-code
-Env
-# LiveKit Server Details
-LIVEKIT_URL="ws://localhost:7880" # Replace with your LiveKit server URL
-LIVEKIT_API_KEY="YOUR_LIVEKIT_API_KEY"
-LIVEKIT_API_SECRET="YOUR_LIVEKIT_API_SECRET"
+
+# 4. Configure Environment Variables
+# Create a .env file with your credentials:
+echo "# LiveKit Server Details
+LIVEKIT_URL=\"ws://localhost:7880\"
+LIVEKIT_API_KEY=\"YOUR_LIVEKIT_API_KEY\"
+LIVEKIT_API_SECRET=\"YOUR_LIVEKIT_API_SECRET\"
 
 # AI Service API Keys
-GROQ_API_KEY="YOUR_GROQ_API_KEY"
-DEEPGRAM_API_KEY="YOUR_DEEPGRAM_API_KEY"
-ELEVENLABS_API_KEY="YOUR_ELEVENLABS_API_KEY"
+GROQ_API_KEY=\"YOUR_GROQ_API_KEY\"
+DEEPGRAM_API_KEY=\"YOUR_DEEPGRAM_API_KEY\"
+ELEVENLABS_API_KEY=\"YOUR_ELEVENLABS_API_KEY\"
 
 # PostgreSQL Database Connection Details
-DB_HOST="localhost"           # Your database host
-DB_PORT="5432"                # Your database port
-DB_NAME="your_database_name"
-DB_USER="your_database_user"
-DB_PASSWORD="your_database_password"
-Running the Application
-The backend runs in two separate processes, which should be started in two separate terminals.
-Terminal 1: Start the FastAPI Token Server
-This server provides the connection token that your frontend needs to join the LiveKit room.
-code
-Bash
+DB_HOST=\"localhost\"
+DB_PORT=\"5432\"
+DB_NAME=\"your_database_name\"
+DB_USER=\"your_database_user\"
+DB_PASSWORD=\"your_database_password\"" > .env
+
+# 5. Running the Backend
+# Terminal 1: FastAPI Token Server
 python main.py
-You should see output from Uvicorn indicating the server is running on http://0.0.0.0:8000.
-Terminal 2: Start the LiveKit Agent Worker
-This is the main process for the voice assistant. It connects to LiveKit and waits to be assigned a room.
-code
-Bash
+
+# Terminal 2: LiveKit Agent Worker
 python main.py start
-You will see logs indicating that the worker has registered and is ready for jobs.
-3. Start Your Frontend
-Navigate to your frontend project directory (e.g., your React app) and start its development server.
-code
-Bash
-# Example for a React app
+
+# 6. Start Frontend (Example React app)
 npm start
+
