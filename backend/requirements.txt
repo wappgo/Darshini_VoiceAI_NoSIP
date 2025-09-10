@@ -1,0 +1,13 @@
+python-dotenv
+fastapi
+uvicorn
+livekit-api
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-deepgram
+livekit-plugins-silero
+# livekit-plugins-elevenlabs  # If you choose to use it
+# livekit.plugins.turn_detector.multilingual is part of livekit-agents or a core plugin installation
+pyjwt
+nest_asyncio
+# torch torchvision torchaudio # For Silero VAD and MultilingualModel, ensure these are compatible

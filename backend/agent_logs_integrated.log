@@ -1,0 +1,507 @@
+2025-09-01 13:38:01,805 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 13:38:01,805 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 13:38:02,518 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 13:38:02,518 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 13:38:02,518 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 13:38:02,518 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 13:38:11,809 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 13:38:11,809 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 13:38:11,813 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 13:38:11,820 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,820 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,820 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,821 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,821 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,821 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,821 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,822 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:11,828 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,828 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,829 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,829 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,829 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,829 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,829 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,829 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:11,830 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 13:38:11,960 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 13:38:16,903 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 13:38:16,905 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 13:38:16,909 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 13:38:16,910 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 13:38:17,421 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 13:38:17,439 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT (Integrated) --- Room: voice-assistant-room
+2025-09-01 13:38:17,481 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:38:17,482 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:38:17,738 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Connected to room 'voice-assistant-room'.
+2025-09-01 13:38:17,907 - __main__ - INFO - [job_thread_runner] - [AgentEntry] All plugins initialized successfully.
+2025-09-01 13:38:17,909 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 13:38:17,909 - __main__ - INFO - [job_thread_runner] - [AgentEntry] EnglishAssistant instance created.
+2025-09-01 13:38:17,910 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Starting AgentSession with EnglishAssistant...
+2025-09-01 13:38:17,912 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Agent logic finished for job AJ_fE7YUABEB8mJ.
+2025-09-01 13:38:17,913 - livekit.agents - DEBUG - [job_thread_runner] - http_session(): creating a new httpclient ctx
+2025-09-01 13:38:17,916 - livekit.agents - DEBUG - [job_thread_runner] - start reading stream
+2025-09-01 13:38:20,210 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:20,211 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 13:38:23,412 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Hello. How can I help you today?'
+2025-09-01 13:38:27,270 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:27,272 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='I lost my watch.'
+2025-09-01 13:38:33,726 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Let's try to find it. When was the last time you remember wearing your watch, and where were you?'
+2025-09-01 13:38:39,359 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:41,202 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:41,694 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Uh, I don't remember the expected date. But, uh, it was last'
+2025-09-01 13:38:41,733 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:41,740 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='night.'
+2025-09-01 13:38:41,762 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:38:52,755 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='So you last remember wearing your watch last night. Can you think of the last place you were or the last thing you did while wearing it? Was it at home, or were you out somewhere?'
+2025-09-01 13:38:57,899 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:58,689 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Nay, it was somewhere around it was somewhere, I think, in'
+2025-09-01 13:38:58,788 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:38:58,790 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Garden.'
+2025-09-01 13:38:58,796 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:39:09,086 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='You think you were wearing your watch in the garden. Let's check there first. Did you go back inside after being in the garden, and if so, did you take off your watch then?'
+2025-09-01 13:39:13,305 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:39:13,379 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='No.'
+2025-09-01 13:39:26,593 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Let's go back to the garden and retrace your steps from last night. Look around the area you were in, check any benches, paths, or plants you might have been near. Maybe your watch fell off or was left somewhere in the garden.'
+2025-09-01 13:39:30,679 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:39:34,273 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='You must look at the database.'
+2025-09-01 13:39:34,402 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:39:34,404 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='The watch watch color is silver. The brand name is Apple.'
+2025-09-01 13:39:34,413 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:39:53,040 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='With that information, I can try to help you narrow down the search. You have a silver Apple watch. Let me update our search parameters. Now, let's retry the garden area, and I'll guide you through a more detailed search. Check under any bushes, near the garden gate, or any other spots where a small item like a watch could fall.'
+2025-09-01 13:46:59,106 - livekit.agents - INFO - [MainThread] - draining worker
+2025-09-01 13:49:53,022 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 13:49:53,022 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 13:49:53,744 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 13:49:53,744 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 13:49:53,744 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 13:49:53,744 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 13:50:15,710 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 13:50:15,710 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 13:50:15,714 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 13:50:15,722 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,722 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,722 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,723 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,723 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,723 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,724 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,724 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:50:15,731 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,731 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,731 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,731 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,732 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,732 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,732 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,732 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:50:15,733 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 13:50:15,902 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 13:51:08,429 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 13:51:08,429 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 13:51:08,431 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 13:51:08,432 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 13:51:09,839 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 13:51:09,862 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT (Integrated) --- Room: voice-assistant-room
+2025-09-01 13:51:09,956 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 13:51:09,957 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 13:51:10,191 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Connected to room 'voice-assistant-room'.
+2025-09-01 13:51:10,361 - __main__ - INFO - [job_thread_runner] - [AgentEntry] All plugins initialized successfully.
+2025-09-01 13:51:10,363 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 13:51:10,364 - __main__ - INFO - [job_thread_runner] - [AgentEntry] EnglishAssistant instance created.
+2025-09-01 13:51:10,364 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Starting AgentSession with EnglishAssistant...
+2025-09-01 13:51:10,366 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Agent logic finished for job AJ_WoW4hnoRpUWA.
+2025-09-01 13:51:10,367 - livekit.agents - DEBUG - [job_thread_runner] - http_session(): creating a new httpclient ctx
+2025-09-01 13:51:10,370 - livekit.agents - DEBUG - [job_thread_runner] - start reading stream
+2025-09-01 13:51:13,491 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:13,495 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 13:51:16,128 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Hello. How can I help you?'
+2025-09-01 13:51:20,564 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:20,565 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='I lost my watch.'
+2025-09-01 13:51:23,018 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='What type of watch is it?'
+2025-09-01 13:51:26,953 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:26,954 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Apple Watch.'
+2025-09-01 13:51:32,987 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='What's the brand and model confirmed, Apple Watch. What color is your Apple Watch?'
+2025-09-01 13:51:34,369 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:34,371 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Silver color.'
+2025-09-01 13:51:38,788 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='So, I have: Apple Watch, silver color. Is that correct?'
+2025-09-01 13:51:41,279 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:41,281 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Yes.'
+2025-09-01 13:51:42,178 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:51:44,466 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:44,467 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='You know about anything else? Uh, I mean, is it'
+2025-09-01 13:51:45,100 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:45,102 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='product?'
+2025-09-01 13:51:45,109 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:51:53,118 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='We already discussed your lost Apple Watch, silver in color. If you'd like to report another lost item, please let me know what it is.'
+2025-09-01 13:51:55,331 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:55,338 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='No. No. No. The, uh, this is only'
+2025-09-01 13:51:55,849 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:51:56,178 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:56,180 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='my'
+2025-09-01 13:51:56,838 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:57,224 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:51:57,739 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='uh,'
+2025-09-01 13:51:57,819 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:51:57,819 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='lost item.'
+2025-09-01 13:51:57,831 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 13:52:03,877 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Let's summarize: you've lost an Apple Watch, silver in color. That's the only item, correct?'
+2025-09-01 13:52:05,477 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:52:05,478 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Yes.'
+2025-09-01 13:52:09,938 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='I'll search the database for your lost Apple Watch, silver in color.'
+2025-09-01 13:53:30,948 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:53:30,949 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='It's been so it's been'
+2025-09-01 13:53:32,390 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Let me'
+2025-09-01 13:53:32,617 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:53:33,158 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='a lot of time'
+2025-09-01 13:53:39,048 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='I've collected the necessary info: Apple Watch, silver. I'll proceed with the search.'
+2025-09-01 13:53:45,529 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 13:53:45,532 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='How much time you need?'
+2025-09-01 13:53:48,608 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Just a moment, I'm checking the database now.'
+2025-09-01 14:01:16,323 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 14:01:16,323 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 14:01:17,204 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 14:01:17,204 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 14:01:17,205 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 14:01:17,205 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 14:01:33,934 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 14:01:33,934 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 14:01:33,939 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 14:01:33,950 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,951 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,951 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,952 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,952 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,953 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,953 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,954 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:01:33,962 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,964 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,964 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,965 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,966 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,966 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,966 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,967 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:01:33,968 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 14:01:34,098 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 14:02:23,927 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 14:02:23,927 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 14:02:24,767 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 14:02:24,768 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 14:02:24,768 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 14:02:24,768 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 14:02:35,602 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 14:02:35,602 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 14:02:35,606 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 14:02:35,614 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,614 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,614 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,614 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,616 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,616 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,616 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,616 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:35,623 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,623 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,623 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,623 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,623 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,624 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,624 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,624 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:35,624 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 14:02:35,758 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 14:02:43,501 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 14:02:43,503 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 14:02:43,509 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 14:02:43,511 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 14:02:44,243 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 14:02:44,288 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT (Integrated) --- Room: voice-assistant-room
+2025-09-01 14:02:44,344 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 14:02:44,344 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 14:02:44,587 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Connected to room 'voice-assistant-room'.
+2025-09-01 14:02:44,782 - __main__ - INFO - [job_thread_runner] - [AgentEntry] All plugins initialized successfully.
+2025-09-01 14:02:44,784 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 14:02:44,784 - __main__ - INFO - [job_thread_runner] - [AgentEntry] EnglishAssistant instance created.
+2025-09-01 14:02:44,785 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Starting AgentSession with EnglishAssistant...
+2025-09-01 14:02:44,786 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Agent logic finished for job AJ_WhwBvkiz8dvu.
+2025-09-01 14:02:44,787 - livekit.agents - DEBUG - [job_thread_runner] - http_session(): creating a new httpclient ctx
+2025-09-01 14:02:44,789 - livekit.agents - DEBUG - [job_thread_runner] - start reading stream
+2025-09-01 14:02:48,008 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:02:48,153 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 14:02:51,552 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Hello. How can I help you today?'
+2025-09-01 14:02:54,880 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:02:54,883 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='I lost my watch.'
+2025-09-01 14:02:57,272 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='What type of watch is it?'
+2025-09-01 14:03:01,021 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:03:01,023 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='And dish watch.'
+2025-09-01 14:03:05,624 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='You mean a Dish watch, that's the brand. What color is your Dish watch?'
+2025-09-01 14:03:08,876 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:03:08,983 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Uh, it's a silver color, and the brand name is Apple.'
+2025-09-01 14:03:15,833 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='So, to confirm: your lost watch is an Apple watch, and it's silver in color. I'll'
+2025-09-01 14:03:16,017 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:03:16,018 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Yes.'
+2025-09-01 14:03:19,993 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='I'll search for a silver Apple watch in our database.'
+2025-09-01 14:03:21,443 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:03:21,446 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Okay.'
+2025-09-01 14:03:27,692 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='I've noted the details: Apple brand, watch type, and silver color. Let me check.'
+2025-09-01 14:37:33,489 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 14:37:33,490 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 14:37:36,782 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='I'm still checking on your silver Apple watch.'
+2025-09-01 14:37:52,145 - livekit.agents - INFO - [MainThread] - draining worker
+2025-09-01 15:04:01,047 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:04:01,047 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 15:04:01,836 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 15:04:01,836 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 15:04:01,836 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 15:04:01,836 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 15:04:20,500 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:04:20,500 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 15:04:20,504 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 15:04:20,511 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,511 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,511 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,512 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,512 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,512 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,512 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,513 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:04:20,519 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,519 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,519 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,520 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,520 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,520 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,520 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,520 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:04:20,521 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 15:04:20,647 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 15:05:09,270 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:05:09,270 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:05:09,272 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:05:09,272 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:06:16,235 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:06:16,235 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 15:06:16,239 - __main__ - WARNING - [MainThread] - Port 8000 in use by PID 0 (System Idle Process). Terminating.
+2025-09-01 15:06:16,240 - __main__ - ERROR - [MainThread] - Failed to terminate PID 0 on port 8000: (pid=0, name='System Idle Process')
+2025-09-01 15:06:16,274 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 15:06:16,274 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 15:06:16,274 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 15:06:16,274 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 15:06:26,792 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:06:26,793 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 15:06:26,796 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 15:06:26,804 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,804 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,805 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,805 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,805 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,805 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,806 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,806 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:26,812 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,813 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,813 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,813 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,813 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,813 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,813 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,814 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:26,814 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 15:06:26,908 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 15:06:31,977 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:06:31,979 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:06:31,985 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:06:31,986 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:06:32,694 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 15:06:32,713 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT (Integrated) --- Room: voice-assistant-room
+2025-09-01 15:06:32,792 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:06:32,793 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:06:32,999 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Connected to room 'voice-assistant-room'.
+2025-09-01 15:06:33,173 - __main__ - INFO - [job_thread_runner] - [AgentEntry] All plugins initialized successfully.
+2025-09-01 15:06:33,174 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 15:06:33,174 - __main__ - INFO - [job_thread_runner] - [AgentEntry] EnglishAssistant instance created.
+2025-09-01 15:06:33,175 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Starting AgentSession with EnglishAssistant...
+2025-09-01 15:06:33,176 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Agent logic finished for job AJ_9vRq7R53DrTd.
+2025-09-01 15:06:33,177 - livekit.agents - DEBUG - [job_thread_runner] - http_session(): creating a new httpclient ctx
+2025-09-01 15:06:33,226 - livekit.agents - DEBUG - [job_thread_runner] - start reading stream
+2025-09-01 15:06:36,367 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:06:36,368 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 15:06:36,650 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42a54e2fswv0jtfzf1rrbc8, body={'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 15:06:38,699 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42a56e3fsxafs9cwpf1q8rm, body={'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 15:06:40,738 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42a58dsfsxttee69kv9jwh3, body={'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 15:06:42,119 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 15:07:59,601 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:07:59,602 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:09:14,750 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:09:14,750 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 15:09:14,754 - __main__ - WARNING - [MainThread] - Port 8000 in use by PID 0 (System Idle Process). Terminating.
+2025-09-01 15:09:14,755 - __main__ - ERROR - [MainThread] - Failed to terminate PID 0 on port 8000: (pid=0, name='System Idle Process')
+2025-09-01 15:09:14,789 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 15:09:14,789 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 15:09:14,790 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 15:09:14,790 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 15:09:30,174 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:09:30,175 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 15:09:30,178 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 15:09:30,185 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,185 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,185 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,186 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,186 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,186 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,186 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,187 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:30,193 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,193 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,195 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:30,195 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 15:09:30,300 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 15:09:44,514 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:09:44,514 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:09:44,518 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:09:44,519 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:09:45,012 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 15:09:45,031 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT (Integrated) --- Room: voice-assistant-room
+2025-09-01 15:09:45,113 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:09:45,114 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:09:45,370 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Connected to room 'voice-assistant-room'.
+2025-09-01 15:09:45,540 - __main__ - INFO - [job_thread_runner] - [AgentEntry] All plugins initialized successfully.
+2025-09-01 15:09:45,542 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 15:09:45,542 - __main__ - INFO - [job_thread_runner] - [AgentEntry] EnglishAssistant instance created.
+2025-09-01 15:09:45,542 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Starting AgentSession with EnglishAssistant...
+2025-09-01 15:09:45,544 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Agent logic finished for job AJ_5v3BXBDWP67Q.
+2025-09-01 15:09:45,545 - livekit.agents - DEBUG - [job_thread_runner] - http_session(): creating a new httpclient ctx
+2025-09-01 15:09:45,548 - livekit.agents - DEBUG - [job_thread_runner] - start reading stream
+2025-09-01 15:09:49,217 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:09:49,219 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 15:09:51,989 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Hello. How can I help you?'
+2025-09-01 15:09:57,196 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:09:57,199 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='I lost my watch.'
+2025-09-01 15:10:02,255 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='What type of watch is it, and what's the brand? Also, what color is it?'
+2025-09-01 15:10:06,565 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:10:07,636 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Uh, the current name is f'
+2025-09-01 15:10:08,167 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:10:08,169 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='and'
+2025-09-01 15:10:08,176 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 15:10:09,006 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 15:10:10,307 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:10:10,308 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='color is silver color.'
+2025-09-01 15:10:17,206 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='So, your lost watch is an Fossil brand, and it's silver in color. I'll search the database now.'
+2025-09-01 15:26:17,359 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:26:17,359 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode). ---
+2025-09-01 15:26:17,364 - __main__ - WARNING - [MainThread] - Port 8000 in use by PID 0 (System Idle Process). Terminating.
+2025-09-01 15:26:17,365 - __main__ - ERROR - [MainThread] - Failed to terminate PID 0 on port 8000: (pid=0, name='System Idle Process')
+2025-09-01 15:26:17,405 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_URL: wss://voice-assistant-ap2c6rap.livekit.cloud
+2025-09-01 15:26:17,405 - main - INFO - [MainThread] - MODULE LEVEL: LIVEKIT_API_KEY IS SET: True
+2025-09-01 15:26:17,405 - main - INFO - [MainThread] - MODULE LEVEL: DEEPGRAM_API_KEY IS SET: True
+2025-09-01 15:26:17,405 - main - INFO - [MainThread] - MODULE LEVEL: OPENAI_API_KEY IS SET: True
+2025-09-01 15:26:24,954 - __main__ - INFO - [MainThread] - --- __main__: Script execution started (Integrated Mode) ---
+2025-09-01 15:26:24,954 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode (Integrated). ---
+2025-09-01 15:26:24,958 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 15:26:24,965 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,966 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,966 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,967 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,967 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,967 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,968 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,968 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:24,975 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,975 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,975 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,975 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,975 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,975 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,976 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,976 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:24,977 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 15:26:25,091 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 15:26:30,047 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:26:30,048 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:26:30,054 - main - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 15:26:30,056 - main - INFO - [MainThread] - [TokenSvc] Generated token for frontend_user to join 'voice-assistant-room'
+2025-09-01 15:26:30,671 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 15:26:30,692 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT (Integrated) --- Room: voice-assistant-room
+2025-09-01 15:26:30,810 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 15:26:30,811 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 15:26:30,972 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Connected to room 'voice-assistant-room'.
+2025-09-01 15:26:31,143 - __main__ - INFO - [job_thread_runner] - [AgentEntry] All plugins initialized successfully.
+2025-09-01 15:26:31,145 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 15:26:31,146 - __main__ - INFO - [job_thread_runner] - [AgentEntry] EnglishAssistant instance created.
+2025-09-01 15:26:31,146 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Starting AgentSession with EnglishAssistant...
+2025-09-01 15:26:31,147 - __main__ - INFO - [job_thread_runner] - [AgentEntry] Agent logic finished for job AJ_4HTEcK75wA3B.
+2025-09-01 15:26:31,148 - livekit.agents - DEBUG - [job_thread_runner] - http_session(): creating a new httpclient ctx
+2025-09-01 15:26:31,152 - livekit.agents - DEBUG - [job_thread_runner] - start reading stream
+2025-09-01 15:26:35,119 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:26:35,188 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='Hello?'
+2025-09-01 15:26:38,517 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='Hello. How can I assist you today?'
+2025-09-01 15:26:45,993 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:26:45,999 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='I lost my watch.'
+2025-09-01 15:26:50,127 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='What type of watch is it, and what's the brand and color?'
+2025-09-01 15:26:56,535 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:26:56,537 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='It's a Apple Watch.'
+2025-09-01 15:26:57,270 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text=''
+2025-09-01 15:26:58,437 - livekit.agents - DEBUG - [job_thread_runner] - received user transcript
+2025-09-01 15:26:58,440 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='user', Text='And the color is silver color.'
+2025-09-01 15:27:04,380 - __main__ - INFO - [job_thread_runner] - [AgentSession Event] Item Added: Role='assistant', Text='So, to recap: you lost an Apple Watch, and it's silver in color. I'll search for it now.'
+2025-09-01 15:35:45 - __main__ - CRITICAL - [MainThread] - !!! __main__: CRITICAL - Uvicorn server failed: Unable to configure formatter 'default'
+Traceback (most recent call last):
+  File "C:\Users\vgh\AppData\Local\Programs\Python\Python311\Lib\logging\config.py", line 541, in configure
+    formatters[name] = self.configure_formatter(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vgh\AppData\Local\Programs\Python\Python311\Lib\logging\config.py", line 653, in configure_formatter
+    result = self.configure_custom(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vgh\AppData\Local\Programs\Python\Python311\Lib\logging\config.py", line 472, in configure_custom
+    result = c(**kwargs)
+             ^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\uvicorn\logging.py", line 42, in __init__
+    self.use_colors = sys.stdout.isatty()
+                      ^^^^^^^^^^^^^^^^^^^
+ValueError: I/O operation on closed file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\backend\englog.py", line 1465, in <module>
+    uvicorn.run(
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\uvicorn\main.py", line 517, in run
+    config = Config(
+             ^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\uvicorn\config.py", line 274, in __init__
+    self.configure_logging()
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\uvicorn\config.py", line 366, in configure_logging
+    logging.config.dictConfig(self.log_config)
+  File "C:\Users\vgh\AppData\Local\Programs\Python\Python311\Lib\logging\config.py", line 812, in dictConfig
+    dictConfigClass(config).configure()
+  File "C:\Users\vgh\AppData\Local\Programs\Python\Python311\Lib\logging\config.py", line 544, in configure
+    raise ValueError('Unable to configure '
+ValueError: Unable to configure formatter 'default'

@@ -1,0 +1,324 @@
+2025-09-01 16:54:21,527 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 16:54:35,170 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 16:54:35,173 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 16:54:35,182 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,182 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,183 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,183 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,184 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,184 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,185 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,185 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:54:35,192 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,192 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,193 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,193 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,193 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,194 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:54:35,195 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 16:54:35,323 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 16:54:45,404 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:54:45,662 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:57:30,848 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 16:57:37,590 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:57:37,590 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 16:57:37,592 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:57:37,593 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 16:57:38,200 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 16:57:38,222 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT --- Room: voice-assistant-room-db
+2025-09-01 16:57:38,297 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:57:38,297 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:57:38,710 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 16:57:38,713 - __main__ - INFO - [job_thread_runner] - [AgentEntry] AgentSession.start() completed.
+2025-09-01 16:57:44,228 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42ggkp5eczadt9g73h4pbrt, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 16:57:46,281 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42ggnp1epzbgxkcee0th970, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 16:57:48,311 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42ggqnned3vny1qdm6r8pbb, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 16:57:50,368 - livekit.agents - ERROR - [job_thread_runner] - AgentSession is closing due to unrecoverable error
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42ggsp2eda8rg6s7fyd3gg0, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 16:57:50,371 - livekit.agents - ERROR - [job_thread_runner] - Error in _inference_task
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42ggsp2eda8rg6s7fyd3gg0, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\utils\log.py", line 16, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\voice\generation.py", line 84, in _inference_task
+    async for chunk in llm_node:
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\voice\agent.py", line 465, in llm_node
+    async for chunk in stream:
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 232, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 145, in _main_task
+    raise APIConnectionError(
+livekit.agents._exceptions.APIConnectionError: failed to generate LLM completion after 4 attempts
+2025-09-01 16:58:07,872 - livekit.agents - INFO - [MainThread] - draining worker
+2025-09-01 16:58:08,087 - livekit.agents - WARNING - [MainThread] - exiting forcefully
+2025-09-01 16:58:14,734 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 16:58:14,737 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 16:58:14,746 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,746 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,747 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,747 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,748 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,748 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,748 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,749 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 16:58:14,755 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,755 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,756 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,756 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,756 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,757 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,757 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,758 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 16:58:14,759 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 16:58:14,867 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 16:58:17,490 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:58:17,491 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 16:58:17,493 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:58:17,493 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 16:58:33,910 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 16:58:33,916 - __main__ - WARNING - [MainThread] - Port 8000 in use by PID 0 (System Idle Process). Terminating.
+2025-09-01 16:58:44,024 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:58:44,024 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 16:58:44,026 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 16:58:44,027 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:01:31,660 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 17:01:38,917 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 17:01:38,920 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 17:01:38,927 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,928 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,928 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,929 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,929 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,929 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,930 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,930 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:38,937 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,937 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,938 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,938 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,939 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,939 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,940 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,940 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:38,941 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 17:01:39,058 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 17:01:45,255 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:01:45,256 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:01:45,258 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:01:45,258 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:01:45,809 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 17:01:45,826 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT --- Room: voice-assistant-room-db
+2025-09-01 17:01:45,869 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:01:45,870 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:01:46,272 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 17:01:46,275 - __main__ - INFO - [job_thread_runner] - [AgentEntry] AgentSession.start() completed.
+2025-09-01 17:01:48,544 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42gr28vf95avnxtbmp1bg7j, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 17:01:50,597 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42gr48zf1ma3rpz6z9wke5p, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 17:01:52,644 - livekit.agents - WARNING - [job_thread_runner] - failed to generate LLM completion, retrying in 2.0s
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42gr692f9k8jnry2xbc7yy3, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 17:01:54,688 - livekit.agents - ERROR - [job_thread_runner] - AgentSession is closing due to unrecoverable error
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42gr88xf9pvg6wdgbrvqypq, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+2025-09-01 17:01:54,689 - livekit.agents - ERROR - [job_thread_runner] - Error in _inference_task
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 138, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\plugins\openai\llm.py", line 601, in _run
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} (status_code=400, request_id=req_01k42gr88xf9pvg6wdgbrvqypq, body={'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'})
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\utils\log.py", line 16, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\voice\generation.py", line 84, in _inference_task
+    async for chunk in llm_node:
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\voice\agent.py", line 465, in llm_node
+    async for chunk in stream:
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 232, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "D:\Projects\darshini voice ai\venv\Lib\site-packages\livekit\agents\llm\llm.py", line 145, in _main_task
+    raise APIConnectionError(
+livekit.agents._exceptions.APIConnectionError: failed to generate LLM completion after 4 attempts
+2025-09-01 17:05:51,397 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 17:05:51,400 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 17:05:51,406 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,407 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,407 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,408 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,408 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,408 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,409 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,409 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:05:51,416 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,417 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,417 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,417 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,418 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,418 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,419 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,419 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:05:51,420 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 17:05:51,518 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 17:05:59,335 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:05:59,336 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:05:59,340 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:05:59,341 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:06:13,617 - livekit.agents - INFO - [MainThread] - draining worker
+2025-09-01 17:06:13,620 - livekit.agents - INFO - [MainThread] - shutting down worker
+2025-09-01 17:06:23,009 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 17:06:30,702 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 17:06:30,705 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 17:06:30,712 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,712 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,713 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,715 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,717 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,720 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,721 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,722 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:06:30,733 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,735 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,736 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,737 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,738 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,739 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,740 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,740 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:06:30,743 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 17:06:30,865 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 17:06:34,562 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:06:34,563 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:06:34,566 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:06:34,567 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:07:16,740 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 17:07:16,745 - __main__ - WARNING - [MainThread] - Port 8000 in use by PID 0 (System Idle Process). Terminating.
+2025-09-01 17:07:23,448 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 17:07:23,453 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 17:07:23,460 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,460 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,460 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,461 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,461 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,462 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,462 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,462 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:07:23,471 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,471 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,471 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,472 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,472 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,472 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,473 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,473 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:07:23,473 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 17:07:23,618 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 17:07:27,895 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:07:27,897 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:07:27,905 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:07:27,906 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:08:21,337 - __main__ - INFO - [MainThread] - --- __main__: Starting FastAPI server (Token Server mode) ---
+2025-09-01 17:08:21,343 - __main__ - WARNING - [MainThread] - Port 8000 in use by PID 0 (System Idle Process). Terminating.
+2025-09-01 17:08:28,130 - __main__ - INFO - [MainThread] - --- __main__: Running Agent Worker mode ---
+2025-09-01 17:08:28,135 - livekit.agents - INFO - [MainThread] - starting worker
+2025-09-01 17:08:28,141 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,142 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,142 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,142 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,143 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,143 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,143 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,144 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:28,152 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,152 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,152 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,153 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,153 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,153 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,154 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,154 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:28,155 - livekit.agents - INFO - [MainThread] - see tracing information at http://localhost:8081/debug
+2025-09-01 17:08:28,253 - livekit.agents - INFO - [MainThread] - registered worker
+2025-09-01 17:08:33,075 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:08:33,077 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:08:33,084 - englog - INFO - [MainThread] - [TokenSvc] /token endpoint hit.
+2025-09-01 17:08:33,085 - englog - INFO - [MainThread] - [TokenSvc] Generated token for identity 'frontend_user' for room 'voice-assistant-room-db'
+2025-09-01 17:08:33,554 - livekit.agents - INFO - [MainThread] - received job request
+2025-09-01 17:08:33,572 - __main__ - INFO - [job_thread_runner] - --- [AgentEntry] AGENT ENTRYPOINT --- Room: voice-assistant-room-db
+2025-09-01 17:08:33,664 - livekit.agents - INFO - [MainThread] - initializing job runner
+2025-09-01 17:08:33,665 - livekit.agents - INFO - [MainThread] - job runner initialized
+2025-09-01 17:08:34,037 - __main__ - INFO - [job_thread_runner] - --- [EnglishAssistant] __init__ CALLED --- Agent initialized.
+2025-09-01 17:08:34,040 - __main__ - INFO - [job_thread_runner] - [AgentEntry] AgentSession.start() completed.
+2025-09-01 17:09:17,803 - __main__ - INFO - [job_thread_runner] - --- [DB Tool] Searching for: type='Watch', brand='Apple', color='Silver'
+2025-09-01 17:09:18,015 - __main__ - INFO - [job_thread_runner] - --- [DB Tool] Formatted result to be sent to LLM: 'I found 2 matching items. Here are the top results: a silver apple Gen 6, a Black Apple Watch Series X.'
+2025-09-01 17:23:13,901 - livekit.agents - INFO - [MainThread] - draining worker
+2025-09-01 17:23:14,122 - livekit.agents - WARNING - [MainThread] - exiting forcefully
