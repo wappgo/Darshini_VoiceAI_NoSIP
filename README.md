@@ -1,4 +1,4 @@
-# AI-Powered Lost & Found Voice Assistant
+# AI-Powered Darshini Voice AI Assistant
 
 This project is a real-time, conversational voice assistant built with the LiveKit Agent Framework. It helps users find lost items by verbally querying a PostgreSQL database and displaying the results visually in a web interface.
 
